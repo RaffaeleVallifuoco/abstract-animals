@@ -41,9 +41,10 @@ public class Cane extends Animali {
     @Override
     void verso() {
 
-        System.out.println("\n Io abbaio ( e forse mordo anche ). \n " + getVerso());
-        // System.out.println(String.format("\n Io abbaio (e forse mordo anche). \n ",
-        // getVerso()));
+        // System.out.println("\n Io abbaio ( e forse mordo anche ). \n " + getVerso());
+
+        System.out.println(String.format("\n Io abbaio (e forse mordo anche). \n %s ",
+                getVerso()));
 
     }
 
