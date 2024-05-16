@@ -1,26 +1,42 @@
 package it.java.abstractAnimals;
 
-public abstract class Animali {
+public abstract class Animali implements Special {
+
+    // costruttore
 
     public Animali() {
 
     }
 
-    void dormi() {
+    // metodi
 
-        System.out.println(" \n Vado a nanna.... ciaooooo \n Zzzzzzzzzzzz ");
+    protected void dormi() {
 
-    }
-
-    void verso() {
+        System.out.println(" \n Vado a nanna.... ciaooooo \n Zzzzzzzzzzzz \n\n\n ");
 
     }
 
-    void mangia() {
+    protected void verso() {
 
     }
 
-    void presentati() {
+    protected void mangia() {
+
+    }
+
+    protected void presentati() {
+
+    }
+
+    public void faiNuotare() {
+
+        System.out.println("\n Io nuotoooooo");
+
+    }
+
+    public void faiVolare() {
+
+        System.out.println("\n Io volooooooo)");
 
     }
 }

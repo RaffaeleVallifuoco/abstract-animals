@@ -26,7 +26,7 @@ public class Cane extends Animali {
         // String dieta = "Onnivoro";
 
         this.name = " Cane ";
-        this.verso = "Bauuuuuuuuuuu";
+        this.verso = "BAUUUUUUUUUUUUU WOOFFF";
         this.dieta = "Onnivoro";
 
     }
@@ -39,7 +39,7 @@ public class Cane extends Animali {
      */
 
     @Override
-    void verso() {
+    protected void verso() {
 
         // System.out.println("\n Io abbaio ( e forse mordo anche ). \n " + getVerso());
 
@@ -49,16 +49,24 @@ public class Cane extends Animali {
     }
 
     @Override
-    void mangia() {
+    protected void mangia() {
 
-        System.out.println("\n Io mangio di tutto. Infatti ono  " + getDieta());
+        System.out.println("\n Io mangio di tutto. Infatti sono  " + getDieta());
 
     }
 
     @Override
-    void presentati() {
+    protected void presentati() {
 
         System.out.println("\n Ciao, sono un " + getName());
+    }
+
+    @Override
+
+    public void faiVolare() {
+
+        System.out.println("\n Io non volo :( ");
+
     }
 
 }

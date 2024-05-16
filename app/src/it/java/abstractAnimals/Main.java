@@ -8,7 +8,37 @@ public class Main {
         cane.presentati();
         cane.verso();
         cane.mangia();
+        cane.faiNuotare();
+        cane.faiVolare();
         cane.dormi();
+
+        Animali dufour = new Delfino();
+
+        dufour.presentati();
+        dufour.verso();
+        dufour.mangia();
+        dufour.faiNuotare();
+        dufour.faiVolare();
+        dufour.dormi();
+
+        Animali passerottino = new Passerotto();
+
+        passerottino.presentati();
+        passerottino.verso();
+        passerottino.mangia();
+        passerottino.faiNuotare();
+        passerottino.faiVolare();
+        passerottino.dormi();
+
+        Animali aquila = new Aquila();
+
+        aquila.presentati();
+        aquila.verso();
+        aquila.mangia();
+        aquila.faiNuotare();
+        aquila.faiVolare();
+        aquila.dormi();
+
     }
 
 }
