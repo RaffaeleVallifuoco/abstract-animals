@@ -1,23 +1,6 @@
 package it.java.abstractAnimals;
 
-public class Delfino extends Animali {
-
-    protected String name;
-
-    protected String verso;
-    protected String dieta;
-
-    public String getName() {
-        return name;
-    }
-
-    public String getVerso() {
-        return verso;
-    }
-
-    public String getDieta() {
-        return dieta;
-    }
+public class Delfino extends Animali implements Inuotante {
 
     public Delfino() {
 
@@ -49,9 +32,9 @@ public class Delfino extends Animali {
 
     @Override
 
-    public void faiVolare() {
+    public void nuota() {
 
-        System.out.println("\n Salto molto in alto ma non so volare ");
+        System.out.println("\n Sto nuotandoooooo ");
 
     }
 

@@ -1,29 +1,8 @@
 package it.java.abstractAnimals;
 
-public class Cane extends Animali {
-
-    protected String name;
-
-    protected String verso;
-    protected String dieta;
-
-    public String getName() {
-        return name;
-    }
-
-    public String getVerso() {
-        return verso;
-    }
-
-    public String getDieta() {
-        return dieta;
-    }
+public class Cane extends Animali implements Inuotante {
 
     public Cane() {
-
-        // String name = "Cane";
-        // String verso = "Bauuuuuuuu";
-        // String dieta = "Onnivoro";
 
         this.name = " Cane ";
         this.verso = "BAUUUUUUUUUUUUU WOOFFF";
@@ -63,9 +42,9 @@ public class Cane extends Animali {
 
     @Override
 
-    public void faiVolare() {
+    public void nuota() {
 
-        System.out.println("\n Io non volo :( ");
+        System.out.println("\n Sto nuotandoooooo ");
 
     }
 

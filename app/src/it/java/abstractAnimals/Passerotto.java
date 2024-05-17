@@ -1,23 +1,6 @@
 package it.java.abstractAnimals;
 
-public class Passerotto extends Animali {
-
-    protected String name;
-
-    protected String verso;
-    protected String dieta;
-
-    public String getName() {
-        return name;
-    }
-
-    public String getVerso() {
-        return verso;
-    }
-
-    public String getDieta() {
-        return dieta;
-    }
+public class Passerotto extends Animali implements IVolante {
 
     public Passerotto() {
 
@@ -49,9 +32,9 @@ public class Passerotto extends Animali {
 
     @Override
 
-    public void faiNuotare() {
+    public void vola() {
 
-        System.out.println("\n Io non nuoto :( ");
+        System.out.println("\n Sto volandooooooo ");
 
     }
 }
